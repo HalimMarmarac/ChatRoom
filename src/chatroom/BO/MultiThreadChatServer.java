@@ -26,8 +26,7 @@ public class MultiThreadChatServer {
 
 		System.out.println("Multithreaded server started at " + new Date() + ".\n");
 
-		// Create a socket object from the ServerSocket to listen and accept
-		// connections
+		// Create a socket object from the ServerSocket to listen and accept connections
 		// Open input and output streams
 		while (true) {
 			try {
